@@ -1,5 +1,5 @@
 # DeMo
-This package contains the supplementary material for DeMo: Decoupled Momentum Optimization
+This package contains the supplementary material for [DeMo: Decoupled Momentum Optimization](https://arxiv.org/abs/2411.19870) (arXiv)
 
 A standalone PyTorch optimizer is provided in `demo.py`.
 
