@@ -3,7 +3,7 @@
 
 This implements the DeMo fused optimizer and data parallel algorithm.
 It is recommended to use DeMo as the base data parallelism.
-In an exisiting codebase that uses PyTorch DDP, wrap your forward-backward in 
+In an existing codebase that uses PyTorch DDP, wrap your forward-backward in 
 `torch.distributed.DistributedDataParallel.no_sync` to disable external gradient synchronization.
 See https://pytorch.org/docs/stable/generated/torch.nn.parallel.DistributedDataParallel.html#torch.nn.parallel.DistributedDataParallel.no_sync
 """
